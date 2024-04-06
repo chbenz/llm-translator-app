@@ -1,7 +1,7 @@
 from json import dumps
 from flask import Flask, request
 
-from translate import translate_en_zh as en_zh, translate_zh_en as zh_en
+from translator.translate import translate_en_zh as en_zh, translate_zh_en as zh_en
 
 app = Flask(__name__)
 
